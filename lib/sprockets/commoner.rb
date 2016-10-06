@@ -20,3 +20,4 @@ module Sprockets
 end
 
 require 'sprockets/commoner/railtie' if defined?(Rails)
+require 'sprockets/commoner/engine' if defined?(Rails)
